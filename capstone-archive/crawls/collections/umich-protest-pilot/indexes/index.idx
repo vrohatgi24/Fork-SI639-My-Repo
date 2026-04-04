@@ -1,3 +1,0 @@
-!meta 0 {"format":"cdxj-gzip-1.0","filename":"index.cdx.gz"}
-com,cloudflare,challenges)/cdn-cgi/challenge-platform/h/b/cmg/1 20260317192222 {"offset":0,"length":31416,"digest":"sha256:57cf987864594980b8e6db336285b7ca3f5a11028261b96380d1c5d1959345e1","filename":"index.cdx.gz"}
-edu,umich,record)/wp-includes/js/dist/priority-queue.min.js?ver=9c21c957c7e50ffdbf48 20260317192201 {"offset":31416,"length":3023,"digest":"sha256:6fac0bf9ccbbe8f363369c113aa907c4e3fa6b14d61839b91284fcbec0ce62f4","filename":"index.cdx.gz"}

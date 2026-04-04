@@ -1,4 +1,0 @@
-!meta 0 {"format":"cdxj-gzip-1.0","filename":"index.cdx.gz"}
-com,cloudflare,challenges)/cdn-cgi/challenge-platform/h/g/cmg/1 20260321031610 {"offset":0,"length":34710,"digest":"sha256:815f36d5da99bd0a926b8d205a72dbdd4d0ff0ec6ee032f505fcf7c6e73e2fc3","filename":"index.cdx.gz"}
-edu,umich,president)/cdn-cgi/challenge-platform/h/g/flow/ov1/764229504:1774060468:6runjpdxjxpwd69w4vgncbgyns7gridmswyvsv_xkxq/9df9d0fa7addd6a4/jmyb4ontxehcprwd2oqrkxtt01rzylaot_2vcmfxkc8-1774063179-1.2.1.1-aayqoq94p1cmcqlogrmw7t5vjnwztmttz3pic8ivg405vcf8q8gphomhcvgeqt05?&__wb_method=post 20260321031940 {"offset":34710,"length":43925,"digest":"sha256:d9c1b432270723f820baf85570f416a061f64f9d72d79acfa6a900939eee4da6","filename":"index.cdx.gz"}
-edu,umich,record)/wp-includes/js/dist/blob.min.js?ver=9113eed771d446f4a556 20260321031550 {"offset":78635,"length":7477,"digest":"sha256:3e1fab0e353cf2dd0cc5035569b60e860bc71b9272a0786a3528e9981c1c0e22","filename":"index.cdx.gz"}
