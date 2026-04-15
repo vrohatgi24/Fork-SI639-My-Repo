@@ -1,0 +1,33 @@
+collection: umich-protest-michigandaily-01
+workers: 1
+generateWACZ: true
+limit: 80
+
+seeds:
+  - url: https://www.michigandaily.com/
+    scopeType: custom
+    include:
+      - "michigandaily\\.com.*(protest|strike|union|divest|encampment|gaza|palestine|disciplin|surveillance|ice|regents|geo)"
+      - "michigandaily\\.com/news/student-government/.*"
+      - "michigandaily\\.com/opinion/editorials/.*"
+      - "michigandaily\\.com/opinion/op-eds/.*"
+    exclude:
+      - "/sports/"
+      - "/arts/"
+      - "/business/"
+      - "/campus-life/"
+      - "/research/"
+      - "/academics/"
+      - "/ann-arbor/"
+      - "/news-briefs/"
+      - "/cartoons/"
+      - "/crossword/"
+      - "/classifieds/"
+      - "/page/[0-9]+/"
+      - "/author/"
+      - "/staff/"
+      - "/about/"
+      - "/subscribe/"
+      - "\\?.*"
+      - "mailto:"
+      

@@ -1,0 +1,16 @@
+collection: umich-protest-events-01
+workers: 1
+generateWACZ: true
+limit: 50
+
+seeds:
+  - url: https://events.umich.edu/
+    scopeType: custom
+    include:
+      - "events\\.umich\\.edu.*(protest|rally|march|walkout|teach-in|teachin|strike|vigil|divest|palestine|gaza|labor|union)"
+    exclude:
+      - "/search/"
+      - "page="
+      - "\\?.*"
+      - "mailto:"
+      

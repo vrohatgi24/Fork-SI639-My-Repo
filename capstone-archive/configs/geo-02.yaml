@@ -1,0 +1,28 @@
+collection: umich-protest-geo-02
+workers: 1
+generateWACZ: true
+limit: 120
+
+seeds:
+  - url: https://www.geo3550.org/
+    scopeType: custom
+    include:
+      - "geo3550\\.org/news/bargaining/"
+      - "geo3550\\.org/news/statements/"
+      - "geo3550\\.org/category/strike/"
+      - "geo3550\\.org/2025/"
+      - "geo3550\\.org/2026/"
+    exclude:
+      - "geo3550\\.org/[0-9]{4}/[0-9]{2}/[0-9]{2}/$"
+      - "/about/"
+      - "/contact/"
+      - "/join/"
+      - "/donate/"
+      - "/donation/"
+      - "/dues/"
+      - "/contract/23-26/"
+      - "/wp-admin/"
+      - "/wp-login.php"
+      - "/page/[0-9]+/"
+      - "\\?.*"
+      - "mailto:"

@@ -1,0 +1,21 @@
+collection: umich-protest-lsa-01
+workers: 1
+generateWACZ: true
+limit: 60
+
+seeds:
+  - url: https://lsa.umich.edu/
+    scopeType: custom
+    include:
+      - "lsa\\.umich\\.edu.*(protest|demonstration|speech|free-speech|policy|disciplin|encampment|student|campus|surveillance)"
+    exclude:
+      - "/about/"
+      - "/people/"
+      - "/faculty/"
+      - "/staff/"
+      - "/advising/"
+      - "/apply/"
+      - "/giving/"
+      - "\\?.*"
+      - "mailto:"
+      

@@ -1,0 +1,17 @@
+collection: umich-protest-studentlife-01
+workers: 1
+generateWACZ: true
+limit: 30
+
+seeds:
+  - url: https://studentlife.umich.edu/
+    scopeType: custom
+    include:
+      - "studentlife\\.umich\\.edu.*(policy|policies|conduct|guidance|demonstration|event|safety|protest)"
+    exclude:
+      - "/directory/"
+      - "/staff/"
+      - "/contact/"
+      - "/about/"
+      - "\\?.*"
+      - "mailto:"
