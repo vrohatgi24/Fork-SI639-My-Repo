@@ -1,0 +1,42 @@
+collection: umich-protest-michigandaily-02
+workers: 1
+generateWACZ: true
+limit: 70
+
+seeds:
+  - url: https://www.michigandaily.com/
+    scopeType: custom
+    include:
+      - "michigandaily\\.com.*(geo|strike|divest|encampment|palestine|gaza|surveillance|disciplin|oscr|ice|regents|tahrir)"
+      - "mic\\.michigandaily\\.com/palestine-in-focus/"
+      - "michigandaily\\.com/michigan-in-color/.*(palestine|divest|protest|encampment|surveillance|police|regent)"
+      - "michigandaily\\.com/news/student-government/.*(divest|human-rights|palestine)"
+      - "michigandaily\\.com/news/administration/.*(geo|strike|encampment|protest|surveillance|disciplin|ice|palestine|gaza|regent|tahrir)"
+      - "michigandaily\\.com/news/public-safety/.*(ice|surveillance|protest)"
+      - "michigandaily\\.com/news/government/.*(ice|protest|rally|divest)"
+      - "michigandaily\\.com/opinion/editorials/.*(geo|strike|disciplin|surveillance|student-rights|regents|protest|ice)"
+      - "michigandaily\\.com/opinion/op-eds/.*(geo|divest|genocide|palestine)"
+    exclude:
+      - "/sports/"
+      - "/arts/"
+      - "/business/"
+      - "/campus-life/"
+      - "/research/"
+      - "/academics/"
+      - "/ann-arbor/"
+      - "/news-briefs/"
+      - "/cartoons/"
+      - "/crossword/"
+      - "/classifieds/"
+      - "/page/[0-9]+/"
+      - "/author/"
+      - "/staff/"
+      - "/about/"
+      - "/subscribe/"
+      - "/opinion/op-eds/ann-arbor-gas-prices"
+      - "/opinion/op-eds/the-kingpin-is-dead"
+      - "/opinion/op-eds/its-time-to-end-virtual-rush"
+      - "/opinion/op-eds/human-euthanasia"
+      - "/news/administration/interdisciplinary-panel-discusses-potential-impact-of-uich-los-alamos-data-center"
+      - "\\?.*"
+      - "mailto:"

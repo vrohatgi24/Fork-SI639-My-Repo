@@ -1,0 +1,45 @@
+collection: umich-protest-expansion-01
+workers: 1
+generateWACZ: true
+limit: 100
+
+seeds:
+  # Fox News – administrative building raid
+  - url: https://www.foxnews.com/media/hundreds-pro-palestinian-protesters-storm-university-michigan-administrative-building
+    scopeType: prefix
+
+  # Fox News – vandalism at President’s home
+  - url: https://www.foxnews.com/us/university-michigan-presidents-home-spray-painted-anti-israel-messages-intifada
+    scopeType: prefix
+
+  # CBS News – students fired after protests (retaliation lawsuit)
+  - url: https://www.cbsnews.com/detroit/news/university-michigan-students-fired-pro-palestinian-protests-lawsuit-first-amendment/
+    scopeType: prefix
+
+  # CBS News – private security surveillance controversy
+  - url: https://www.cbsnews.com/detroit/news/university-of-michigan-drops-private-security-group-pro-palestinan-students/
+    scopeType: prefix
+
+  # ABC News – protest outside Biden event
+  - url: https://abcnews.com/Politics/pro-palestinian-protesters-standoff-riot-police-biden-michigan/story?id=106890382
+    scopeType: prefix
+
+  # History News Network – BAM 50th anniversary reflection
+  - url: https://www.hnn.us/article/the-fiftieth-anniversary-of-the-black-action-movem
+    scopeType: prefix
+
+  # Ann Arbor Chronicle – “Open It Up or Shut It Down” (BAM strike)
+  - url: https://annarborchronicle.com/2010/03/30/open-it-up-or-shut-it-down/
+    scopeType: prefix
+
+  # Ann Arbor District Library – anti-deputization protest (1990)
+  - url: https://aadl.org/node/247152
+    scopeType: prefix
+
+  # Michigan in the World – Anti-Apartheid exhibit page
+  - url: https://michiganintheworld.history.lsa.umich.edu/antiapartheid/exhibits/show/exhibit/origins/campus-before-soweto
+    scopeType: prefix
+
+  # Michigan in the World – Anti-Vietnam War exhibit page
+  - url: https://michiganintheworld.history.lsa.umich.edu/antivietnamwar/exhibits/show/exhibit/draft_protests
+    scopeType: prefix

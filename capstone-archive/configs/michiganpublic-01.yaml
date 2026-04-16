@@ -1,0 +1,20 @@
+collection: umich-protest-michiganpublic-01
+workers: 1
+generateWACZ: true
+limit: 70
+
+seeds:
+  - url: https://www.michiganpublic.org/
+    scopeType: custom
+    include:
+      - "michiganpublic\\.org.*(umich|university-of-michigan|ann-arbor|encampment|divest|protest|student-protest|disciplin|palestine|gaza|ice|regents)"
+    exclude:
+      - "/podcast/"
+      - "/programs/"
+      - "/about/"
+      - "/donate/"
+      - "/contact/"
+      - "/newsletters/"
+      - "/tags/"
+      - "\\?.*"
+      - "mailto:"

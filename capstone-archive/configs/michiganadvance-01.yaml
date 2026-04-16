@@ -1,0 +1,18 @@
+collection: umich-protest-michiganadvance-01
+workers: 1
+generateWACZ: true
+limit: 70
+
+seeds:
+  - url: https://michiganadvance.com/
+    scopeType: custom
+    include:
+      - "michiganadvance\\.com.*(umich|university-of-michigan|ann-arbor|encampment|divest|protest|student-protest|disciplin|palestine|gaza|ice|regents)"
+    exclude:
+      - "/about-us/"
+      - "/donate/"
+      - "/events/"
+      - "/author/"
+      - "/tag/"
+      - "\\?.*"
+      - "mailto:"

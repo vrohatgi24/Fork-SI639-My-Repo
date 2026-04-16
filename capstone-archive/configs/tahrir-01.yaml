@@ -1,0 +1,19 @@
+collection: umich-protest-tahrir-01
+workers: 1
+generateWACZ: true
+limit: 80
+
+seeds:
+  - url: https://tahrirumich.org/
+    scopeType: custom
+    include:
+      - "tahrirumich\\.org.*(divest|demands|campaign|statement|action|protest|encampment|palestine|gaza|event|regents)"
+    exclude:
+      - "/wp-admin/"
+      - "/wp-login.php"
+      - "/feed/"
+      - "/comments/"
+      - "/author/"
+      - "/page/[0-9]+/"
+      - "\\?.*"
+      - "mailto:"

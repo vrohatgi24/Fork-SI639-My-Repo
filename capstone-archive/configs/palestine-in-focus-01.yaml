@@ -1,0 +1,11 @@
+collection: umich-protest-palestineinfocus-01
+workers: 1
+generateWACZ: true
+limit: 60
+
+seeds:
+  - url: https://mic.michigandaily.com/palestine-in-focus/
+    scopeType: prefix
+    exclude:
+      - "\\?.*"
+      - "mailto:"
